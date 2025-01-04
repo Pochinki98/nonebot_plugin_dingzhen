@@ -7,7 +7,7 @@
 
 # nonebot_plugin_dingzhen
 
-_✨ 一款QQ丁真语音生成器。 ✨_
+_✨ 一款QQ丁真语音生成器 ✨_
 
 
 <p align="center">
