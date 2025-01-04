@@ -31,10 +31,12 @@ _✨ 一款不怎么优秀的丁真语音生成器。 ✨_
 
 感谢[chaichaisi](https://github.com/chaichaisi/)作为精神支柱。
 
+感谢[丁真](https://bilibili.com/video/BV1Y7SWYpERP)对本项目的贡献。
+
 ## 📖 前言及介绍
 
-PS: 这是我第一次发布插件，没有多少经验，写的也不规范，还望诸位海涵多提issue。
-目前实测暂无bug。
+PS: 这是我第一次发布插件，没有多少经验，写的也不规范，还望诸位海涵多提issue。  
+目前实测暂未发现bug。
 
 ## 🔧 开发环境
 Nonebot2：2.0.0rc4  
