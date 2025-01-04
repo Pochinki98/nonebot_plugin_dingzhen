@@ -41,7 +41,7 @@ _别否认，别纳闷，一定还会有下一个丁真。_
 
 ## 💿 安装  
 
-在开始安装前，请先安装aiofiles
+在开始安装前，请先安装aiofiles。
 ```
 pip install aiofiles
 ```
