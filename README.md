@@ -120,9 +120,7 @@ nb plugin update nonebot_plugin_dingzhen
 - 更换稳定API, 修复部分Bug  
 
 </details>
-<div align="center">
-  <a href="https://cqu.edu.cn"><img src="[https://github.com/haowang-cqu/CQU-Logo/blob/main/%E6%A0%A1%E5%BE%BD/%E6%A0%A1%E5%BE%BD_%E8%93%9D%E8%89%B2_1024x1024.png" width="180" height="180" alt="CQUlogo"></a><br><br>
-  <a href="https://cqu.edu.cn"><img src="https://www2.cqu.edu.cn/Uploads/CQUmain/nowvi.png" width="2272" height="717" alt="CQUlogo2"></a>
+  <a href="https://cqu.edu.cn"><img src="https://www2.cqu.edu.cn/Uploads/CQUmain/nowvi.png" width="227.2" height="71.7" alt="CQUlogo"></a>
   <br>
 </div>
 
