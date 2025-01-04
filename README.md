@@ -70,6 +70,10 @@ nb plugin update nonebot_plugin_dingzhen
 
 PS: 请查看你env中起始符的配置(默认```/```)。  
 
+## 💡 未来期望
+
+可能会支持修改配置来改变模型生成语音的参数。
+
 ## 📝 更新日志
 
 <details>
