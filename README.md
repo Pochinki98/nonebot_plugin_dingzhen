@@ -7,13 +7,10 @@
 
 # nonebot_plugin_dingzhen（暂未上线）
 
-_✨ 一款不怎么优秀的丁真语音生成器。 ✨_
+_✨ 一款QQ丁真语音生成器。 ✨_
 
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/cscs181/QQ-Github-Bot/master/LICENSE">
-    <img src="https://img.shields.io/github/license/cscs181/QQ-Github-Bot.svg" alt="license">
-  </a>
   <a href="https://pypi.python.org/pypi/nonebot_plugin_dingzhen">
     <img src="https://img.shields.io/pypi/v/nonebot-plugin-status.svg" alt="pypi">
   </a>
