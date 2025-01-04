@@ -2,7 +2,7 @@
 name = "nonebot_plugin_dingzhen"
 version = "1.0.0"
 description = "一个nonebot2的QQ丁真语音生成器"
-authors = [name="Noobie III", email="admin@noobie.top"]
+authors = [{name="Noobie III", email="admin@noobie.top"}]
 repository = "https://github.com/iidamie/https://github.com/Pochinki98/nonebot_plugin_dingzhen"
 
 [tool.poetry.dependencies]
