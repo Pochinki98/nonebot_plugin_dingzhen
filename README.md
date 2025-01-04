@@ -1,0 +1,2 @@
+# nonebot_plugin_dingzhen
+基于Nonebot2开发的一款丁真语音生成器
