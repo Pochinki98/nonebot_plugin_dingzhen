@@ -26,7 +26,9 @@ _✨ 一款不怎么优秀的丁真语音生成器。 ✨_
 ## 🙏 致谢
 
 感谢[MiDd1Eye](https://www.modelscope.cn/profile/MiDd1Eye)提供[语音模型](https://www.modelscope.cn/studios/MiDd1Eye/DZ-Bert-VITS2)。
+
 感谢项目[Bert-VITS2](https://github.com/fishaudio/Bert-VITS2)。
+
 感谢[chaichaisi](https://github.com/chaichaisi/)作为精神支柱。
 
 ## 📖 前言及介绍
