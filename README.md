@@ -11,6 +11,8 @@ _✨ 一款QQ丁真语音生成器。 ✨_
 
 
 <p align="center">
+  <a href="https://raw.githubusercontent.com/Pochinki98/nonebot_plugin_dingzhen/master/LICENSE">
+    <img src="https://img.shields.io/github/license/Pochinki98/nonebot_plugin_dingzhen.svg" alt="license">
   <a href="https://pypi.python.org/pypi/nonebot_plugin_dingzhen">
     <img src="https://img.shields.io/pypi/v/nonebot_plugin_dingzhen.svg" alt="pypi">
   </a>
