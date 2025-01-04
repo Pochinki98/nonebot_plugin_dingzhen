@@ -12,7 +12,7 @@ _✨ 一款QQ丁真语音生成器。 ✨_
 
 <p align="center">
   <a href="https://pypi.python.org/pypi/nonebot_plugin_dingzhen">
-    <img src="https://img.shields.io/pypi/v/nonebot-plugin-status.svg" alt="pypi">
+    <img src="https://img.shields.io/pypi/v/nonebot_plugin_dingzhen.svg" alt="pypi">
   </a>
   <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="python">
 </p>
