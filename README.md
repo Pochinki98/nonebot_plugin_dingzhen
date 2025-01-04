@@ -122,6 +122,7 @@ nb plugin update nonebot_plugin_dingzhen
 </details>
 <div align="center">
   <a href="https://cqu.edu.cn"><img src="https://github.com/haowang-cqu/CQU-Logo/blob/main/%E6%A0%A1%E5%BE%BD/%E6%A0%A1%E5%BE%BD_%E8%93%9D%E8%89%B2_1024x1024.png" width="180" height="180" alt="CQUlogo"></a>
+  <a href="https://cqu.edu.cn"><img src="https://github.com/haowang-cqu/CQU-Logo/blob/main/%E6%A0%A1%E5%BE%BD/%E6%A0%A1%E5%BE%BD_%E8%93%9D%E8%89%B2_1024x1024.png" width="180" height="59.266688" alt="CQUlogo2"></a>
   <br>
 </div>
 
