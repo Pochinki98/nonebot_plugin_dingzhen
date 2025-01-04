@@ -33,50 +33,29 @@ _✨ 一款不怎么优秀的丁真语音生成器。 ✨_
 
 感谢[丁真](https://bilibili.com/video/BV1Y7SWYpERP)对本项目的贡献。
 
-## 📖 前言及介绍
+## 📖 前言
 
-PS: 这是我第一次发布插件，没有多少经验，写的也不规范，还望诸位海涵多提issue。  
-目前实测暂未发现bug。
+此次是我首次发布插件，写的或有漏缺，或不规范，还望诸位海涵。  
+目前实测暂未发现bug。如果发现插件bug或有其他建议的请提issue，感激不尽。
 
-## 🔧 开发环境
-Nonebot2：2.0.0rc4  
-python：3.11.3  
-操作系统：Linux（Windows兼容性问题不大）  
-编辑器：VS Code
+_别否认，别纳闷，一定还会有下一个丁真。_
 
 ## 💿 安装  
 
 ### 1. nb-cli安装（推荐）
 
-在你bot工程的文件夹下，运行cmd/shell（运行路径要对啊），执行nb命令安装插件，插件配置会自动添加至配置文件  
+在bot配置文件同级目录下执行以下命令：
 ```
 nb plugin install nonebot_plugin_dingzhen
 ```
 
 ### 2. pip安装
 ```
-pip install nonebot_plugin_smallapi
+pip install nonebot_plugin_dingzhen
 ```  
 打开 nonebot2 项目的 ```bot.py``` 文件, 在其中写入  
-```nonebot.load_plugin('nonebot_plugin_smallapi')```  
-当然，如果是默认nb-cli创建的nonebot2的话，在bot路径```pyproject.toml```的```[tool.nonebot]```的```plugins```中添加```nonebot_plugin_smallapi```即可  
-pyproject.toml配置例如：  
-``` 
-[tool.nonebot]
-plugin_dirs = ["src/plugins"]
-plugins = ["nonebot_plugin_smallapi"]
-``` 
-
-### 3. 本地安装(不推荐)
-
-仓库没更新，建议nb-cli
-将项目clone到你的机器人插件下的对应插件目录内（一般为机器人文件夹下的`src/plugins`），然后把`nonebot_plugin_smallapi`文件夹里的内容拷贝至上一级目录即可。  
-clone命令参考（得先装`git`，懂的都懂）：
-```
-git clone https://github.com/chaichaisi/nonebot_plugin_smallapi.git
-``` 
-也可以直接下载压缩包到插件目录解压，然后同样提取`nonebot_plugin_smallapi`至上一级目录。  
-目录结构： ```你的bot/src/plugins/nonebot_plugin_smallapi/__init__.py```  
+```nonebot.load_plugin('nonebot_plugin_dingzhen')```  
+当然，如果是默认nb-cli创建的nonebot2的话，在bot路径```pyproject.toml```的```[tool.nonebot]```的```plugins```中添加```nonebot_plugin_dingzhen```即可。  
 
 ### 更新版本
 ```
@@ -84,10 +63,8 @@ nb plugin update nonebot_plugin_dingzhen
 ```
 
 ## 🎉 功能
-  
-  1. 齐全的API随机图片系统  
-  2. 齐全的API随机文本系统  
-  3. 好使的网站工具系统
+
+可以通过语音模型生成一段很像丁真的语音。  
 
 ## 👉 命令
   
