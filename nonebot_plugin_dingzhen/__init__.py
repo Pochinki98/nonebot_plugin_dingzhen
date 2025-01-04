@@ -1,3 +1,15 @@
+"""
+@Author         : Noobie III
+@Date           : 2025-01-04 19:00:09
+@LastEditors    : Noobie III
+@LastEditTime   : 2025-01-04 19:00:00
+@Description    : Dingzhen's Voice plugin
+@GitHub         : https://github.com/Pochinki98
+"""
+
+__author__ = "Noobie III"
+
+
 import os
 import json
 import httpx
