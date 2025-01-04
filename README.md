@@ -5,7 +5,7 @@
 
 <div align="center">
 
-# nonebot_plugin_dingzhen（暂未上线）
+# nonebot_plugin_dingzhen
 
 _✨ 一款QQ丁真语音生成器。 ✨_
 
