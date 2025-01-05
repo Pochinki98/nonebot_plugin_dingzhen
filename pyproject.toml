@@ -1,25 +1,29 @@
-[tool.poetry]
+[project]
 name = "nonebot_plugin_dingzhen"
-version = "1.0.5.3"
-description = "一个为 NoneBot2 提供 QQ 丁真语音生成功能的插件，支持轻量级自定义。"
-authors = ["Noobie III <admin@noobie.top>"]
+version = "1.0.5.4"
+description = "一个为 NoneBot2 提供 QQ 丁真语音生成功能的插件。"
+authors = [
+    { name = "Noobie III", email = "admin@noobie.top" }
+]
 readme = "README.md"
 license = "MIT"
 homepage = "https://github.com/Pochinki98/nonebot_plugin_dingzhen"
 repository = "https://github.com/Pochinki98/nonebot_plugin_dingzhen"
+requires-python = ">=3.8"
 
-[tool.poetry.dependencies]
-python = ">=3.8"
-nonebot2 = ">=2.0.0-beta.1"
-httpx = ">=0.24.0"
-aiofiles = ">=23.1.0"
-nonebot-adapter-onebot = ">=2.0.0"
+# 主依赖
+dependencies = [
+    "nonebot2>=2.0.0-beta.1",
+    "httpx>=0.24.0",
+    "aiofiles>=23.1.0",
+    "nonebot-adapter-onebot>=2.0.0"
+]
 
-
-pytest = { version = ">=5.2", optional = true }
-
-[tool.poetry.extras]
-dev = ["pytest"]
+# 可选依赖
+[project.optional-dependencies]
+dev = [
+    "pytest>=5.2"
+]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
