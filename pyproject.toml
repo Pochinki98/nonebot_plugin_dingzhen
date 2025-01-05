@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot_plugin_dingzhen"
-version = "1.0.3"
+version = "1.0.4"
 description = "一个nonebot2的QQ丁真语音生成器"
 authors = ["Noobie III <admin@noobie.top>"]
 repository = "https://github.com/iidamie/https://github.com/Pochinki98/nonebot_plugin_dingzhen"
