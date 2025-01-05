@@ -8,6 +8,7 @@ repository = "https://github.com/iidamie/https://github.com/Pochinki98/nonebot_p
 [tool.poetry.dependencies]
 python = "^3.8"
 nonebot2 = ">=2.0.0-beta.1"
+httpx = ">=0.24.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
