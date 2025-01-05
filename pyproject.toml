@@ -1,6 +1,6 @@
 [project]
 name = "nonebot_plugin_dingzhen"
-version = "1.0.4"
+version = "1.0.5"
 description = "一个为 NoneBot2 提供 QQ 丁真语音生成功能的插件，支持轻量级自定义。"
 authors = ["Noobie III <admin@noobie.top>"]
 readme = "README.md"
