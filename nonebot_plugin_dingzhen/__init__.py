@@ -2,7 +2,7 @@
 @Author         : Noobie III
 @Date           : 2025-01-04 19:00:09
 @LastEditors    : Noobie III
-@LastEditTime   : 2025-01-04 19:00:00
+@LastEditTime   : 2025-02-20 15:00:00
 @Description    : Dingzhen's Voice plugin
 @GitHub         : https://github.com/Pochinki98
 """
@@ -21,6 +21,16 @@ from nonebot.adapters import Bot, Event
 from nonebot.adapters.onebot.v11 import MessageSegment, Message
 from nonebot.typing import T_State
 from nonebot.params import CommandArg
+from nonebot.plugin import PluginMetadata
+
+__plugin_meta__ = PluginMetadata(
+    name="丁真语音生成器",
+    description="一款丁真语音生成器，用于合成丁真语音并发送",
+    usage="发送“丁真说 XX”即可命令机器人合成一段丁真语音并发出",
+    type="application",
+    homepage="https://github.com/Pochinki98/nonebot_plugin_dingzhen",
+    supported_adapters={"~onebot.v11", "~telegram"},
+)
 
 # 配置日志
 logger = logging.getLogger(__name__)
