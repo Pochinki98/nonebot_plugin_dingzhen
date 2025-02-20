@@ -29,7 +29,7 @@ __plugin_meta__ = PluginMetadata(
     usage="发送“丁真说 XX”即可命令机器人合成一段丁真语音并发出",
     type="application",
     homepage="https://github.com/Pochinki98/nonebot_plugin_dingzhen",
-    supported_adapters={"~onebot.v11", "~telegram"},
+    supported_adapters={"~onebot.v11"},
 )
 
 # 配置日志
