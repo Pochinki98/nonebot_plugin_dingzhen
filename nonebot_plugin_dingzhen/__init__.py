@@ -64,7 +64,7 @@ async def handle_speak(
         
         if not args_text:
             logger.warning("用户未提供文本")
-            await speak.finish("请提供要转换为语音的文本，例如：/丁真说 你好世界")
+            await speak.finish("请提供要转换为语音的文本，例如：丁真说 这是雪豹")
         
         text = args_text
         logger.debug(f"处理的文本: '{text}'")
