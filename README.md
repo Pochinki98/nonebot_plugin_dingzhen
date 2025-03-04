@@ -46,11 +46,11 @@ _✨ 一款QQ丁真语音生成器 ✨_
 pip install aiofiles
 ```
 
-### 1. nb-cli安装（推荐）
+### 1. 手动安装（推荐）
 
-在bot配置文件同级目录下执行以下命令：
+先克隆本仓库，然后将 `nonebot_plugin_dingzhen/nonebot_plugin_dingzhen` 复制到插件目录下
 ```
-nb plugin install nonebot_plugin_dingzhen
+git clone https://github.com/Pochinki98/nonebot_plugin_dingzhen.git
 ```
 
 ### 2. pip安装

@@ -17,9 +17,7 @@ import aiofiles
 import logging
 import random
 from nonebot import on_command
-from nonebot.adapters import Bot, Event
-from nonebot.adapters.onebot.v11 import MessageSegment, Message
-from nonebot.typing import T_State
+from nonebot.adapters.onebot.v11 import MessageSegment, Message, Bot
 from nonebot.params import CommandArg
 from nonebot.plugin import PluginMetadata
 
@@ -36,7 +34,7 @@ __plugin_meta__ = PluginMetadata(
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)  # 配置日志级别
 
-speak = on_command("speak", aliases={"丁真说", "丁真"}, priority=5, block=True)
+speak = on_command("speak", aliases={"丁真说", "丁真"}, block=True)
 
 # 获取插件的当前目录
 plugin_dir = os.path.dirname(__file__)
@@ -52,8 +50,6 @@ except Exception as e:
 @speak.handle()
 async def handle_speak(
     bot: Bot,
-    event: Event,
-    state: T_State,
     args: Message = CommandArg()  # 正确的类型声明
 ):
     wav_path = ""  # 初始化 wav_path 以确保在 finally 块中可访问
@@ -64,7 +60,7 @@ async def handle_speak(
         
         if not args_text:
             logger.warning("用户未提供文本")
-            await speak.finish("请提供要转换为语音的文本，例如：丁真说 这是雪豹")
+            await speak.finish("请提供要转换为语音的文本，例如：/丁真说 这是雪豹")
         
         text = args_text
         logger.debug(f"处理的文本: '{text}'")
