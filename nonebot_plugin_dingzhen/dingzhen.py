@@ -5,9 +5,7 @@ import httpx
 import logging
 import random
 from nonebot import on_command
-from nonebot.adapters import Bot, Event
-from nonebot.adapters.onebot.v11 import MessageSegment, Message
-from nonebot.typing import T_State
+from nonebot.adapters.onebot.v11 import MessageSegment, Message, Bot
 from nonebot.params import CommandArg
 from nonebot_plugin_localstore import get_cache_dir
 from nonebot.exception import FinishedException
@@ -16,7 +14,7 @@ from nonebot.exception import FinishedException
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
-speak = on_command("speak", aliases={"丁真说", "丁真"}, priority=5, block=True)
+speak = on_command("speak", aliases={"丁真说", "丁真"}, block=True)
 
 # 使用 localstore 获取缓存目录
 temp_dir = get_cache_dir("dingzhen")
@@ -24,8 +22,6 @@ temp_dir = get_cache_dir("dingzhen")
 @speak.handle()
 async def handle_speak(
     bot: Bot,
-    event: Event,
-    state: T_State,
     args: Message = CommandArg()
 ):
     wav_path = ""
