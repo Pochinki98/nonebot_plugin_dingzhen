@@ -86,6 +86,12 @@ PS: 请查看你env中起始符的配置(默认```/```)。
 <details>
 <summary>展开/收起</summary>  
 
+### 1.12
+
+- 参照建议除去了一些不必要的函数参数，并修改了优先级
+- 修调整了插件结构
+- 按照要求禁止在插件目录下保存文件，现改为采用[nonebot_plugin_localstore](https://github.com/nonebot/plugin-localstore)插件的方案。
+
 ### 1.1 
 
 - 稳定版
