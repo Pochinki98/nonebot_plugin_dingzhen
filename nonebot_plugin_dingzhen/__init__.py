@@ -1,3 +1,16 @@
+"""
+@Author         : Noobie III
+@Date           : 2025-01-04 19:00:09
+@LastEditors    : Noobie III
+@LastEditTime   : 2025-02-20 15:00:00
+@Description    : Dingzhen's Voice plugin
+@GitHub         : https://github.com/Pochinki98
+"""
+
+__author__ = "Noobie III"
+
+
+
 from nonebot.plugin import PluginMetadata, require
 
 require("nonebot_plugin_localstore")
