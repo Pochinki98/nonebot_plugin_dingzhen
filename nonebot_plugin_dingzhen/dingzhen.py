@@ -2,12 +2,12 @@
 
 import json
 import httpx
-import logging
 import random
 from nonebot import on_command
+from nonebot import logger
 from nonebot.adapters.onebot.v11 import MessageSegment, Message, Bot
 from nonebot.params import CommandArg
-from nonebot_plugin_localstore import get_cache_dir
+from nonebot_plugin_localstore import get_plugin_cache_dir
 from nonebot.exception import FinishedException
 
 # 配置日志
@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO)
 speak = on_command("speak", aliases={"丁真说", "丁真"}, block=True)
 
 # 使用 localstore 获取缓存目录
-temp_dir = get_cache_dir("dingzhen")
+temp_dir = get_plugin_cache_dir("dingzhen")
 
 @speak.handle()
 async def handle_speak(
