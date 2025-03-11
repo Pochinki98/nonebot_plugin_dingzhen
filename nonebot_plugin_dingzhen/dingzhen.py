@@ -15,7 +15,7 @@ from nonebot.exception import FinishedException
 speak = on_command("speak", aliases={"丁真说", "丁真"}, block=True)
 
 # 使用 localstore 获取缓存目录
-temp_dir = get_plugin_cache_dir("dingzhen")
+temp_dir = get_plugin_cache_dir()
 
 @speak.handle()
 async def handle_speak(
