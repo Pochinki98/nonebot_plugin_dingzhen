@@ -10,9 +10,7 @@ from nonebot.params import CommandArg
 from nonebot_plugin_localstore import get_plugin_cache_dir
 from nonebot.exception import FinishedException
 
-# 配置日志
-logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO)
+
 
 speak = on_command("speak", aliases={"丁真说", "丁真"}, block=True)
 
